@@ -1,7 +1,7 @@
 // CONFIGURAÇÕES GERAIS
 const CONFIG = {
     // Insira seu link de checkout abaixo
-    checkoutUrl: 'https://tracking.metrito.com/mtrtprxy/link/8723abd443b89c4ab0858bc128cb021f65ad00a2',
+    checkoutUrl: 'https://pay.hotmart.com/Y108612365N?off=02pgo223',
     
     // Fluxo inicial: 
     // 'warm' = Começa com boas-vindas da Amanda, apresentando-se antes das perguntas.
