@@ -4,7 +4,7 @@ const CONFIG = {
     checkoutUrl: 'https://tracking.metrito.com/mtrtprxy/link/8723abd443b89c4ab0858bc128cb021f65ad00a2',
     
     // Fluxo inicial: 
-    // 'warm' = Começa com boas-vindas da Beatriz, apresentando-se antes das perguntas.
+    // 'warm' = Começa com boas-vindas da Amanda, apresentando-se antes das perguntas.
     // 'direct' = Começa diretamente com a pergunta sobre a idade.
     startFlow: 'warm',
     
@@ -129,7 +129,7 @@ const chatFlow = {
     start_warm: {
         botMessages: [
             { type: 'text', content: 'Oie, tudo bem? 👋' },
-            { type: 'text', content: 'Meu nome é Beatriz Araujo e sou especialista em **Pilates de Parede há mais de 6 anos... **' },
+            { type: 'text', content: 'Meu nome é Amanda Araujo e sou especialista em **Pilates de Parede há mais de 6 anos... **' },
             { type: 'text', content: 'Gostaria de receber **GRATUITAMENTE** um plano personalizado de Pilates na Parede que** fortalece seu corpo, aumenta sua autoestima e te deixa em forma em apenas 28 dias? **(CLIQUE NO BOTÃO ABAIXO)' }
         ],
         input: {
@@ -471,7 +471,7 @@ async function writeSupabaseEvent(stepKey, answerValue = '', eventType = 'etapa_
         const eventObj = {
             client_event_id: clientEventId,
             session_id: localSessionId,
-            quiz_id: 'pilates_beatriz',
+            quiz_id: 'pilates_amanda',
             step_key: stepKey,
             answer_value: answerValue ? answerValue.toString() : '',
             event_type: eventType,
